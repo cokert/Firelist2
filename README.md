@@ -1,5 +1,7 @@
 # Firelist2
 
+This is a rewrite of [this](https://github.com/cokert/Firelist) project in an updated version of Angular.  The first version was using a beta version of Angular 2 and a beta version of webpack.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server
