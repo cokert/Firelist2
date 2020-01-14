@@ -10,6 +10,7 @@ import { AuthGuard } from './core/auth.guard';
 import { AuthService } from './core/auth.service';
 import { UserService } from './core/user.service';
 import { UserComponent } from './user/user.component';
+import { LoginComponent } from './login/login.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,7 +21,8 @@ import { ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     SecureComponent,
-    UserComponent
+    UserComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features
   ],
+
 
   providers: [AuthService, UserService, UserResolver, AuthGuard],
   bootstrap: [AppComponent]
