@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Firelist2"
+    }
+  },
+  "defaultProject": "Firelist2",
+  "cli": {
+    "analytics": "88e0a320-c52b-442c-8a3a-346ee6a6fb0b"
+  }
 }
